@@ -81,16 +81,36 @@ hide
  03-17 16:13:38.869 2227 2227 D TextView: visible is system.charge.show
  03-17 16:13:38.887 2227 2227 D TextView: visible is system.ownerinfo.show
  )
-output:
+output:spam.log file created with log data
+2021-01-06 00:32:20,898 - simple_example - ERROR - error message
+2021-01-06 00:32:20,898 - simple_example - CRITICAL - critical message
+
 
 problem 8:
 8:Program to Generate random logs and write in a file , once the file size reaches 2Mb
 open new file and continue writing
 output:
+logging_rotatingfile_example.out.3
+logging_rotatingfile_example.out
+logging_rotatingfile_example.out.4
+logging_rotatingfile_example.out.5
+logging_rotatingfile_example.out.1
+logging_rotatingfile_example.out.2
 
 
 problem 9:
 9:Script to ping and check whether any given IPs are active, also whether given set of
 software are installed in the existing system ( like java, kubectl, aws etc)
 output:
+192.168.0.1 active
+192.168.0.2 inactive
+192.168.0.3 inactive
+192.168.0.4 inactive
+192.168.0.5 inactive
+192.168.0.6 inactive
+192.168.0.7 inactive
+192.168.0.8 inactive
+192.168.0.9 inactive
+
+
 
